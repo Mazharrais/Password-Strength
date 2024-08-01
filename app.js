@@ -4,6 +4,12 @@ var str = document.getElementById('strength');
 
 
 
-function passwordStr(){
-    if
-}
+pass.addEventListener('input', () =>{
+
+    if(pass.value.length > 0){
+     mesg.style.display = "block";
+    }
+    else{
+        mesg.style.display = "none";
+    }
+})
